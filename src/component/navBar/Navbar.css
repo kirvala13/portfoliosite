@@ -1,0 +1,63 @@
+nav{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    top: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    left: -6px;
+    
+}
+
+.logo{
+    width: 73px;
+    height: 45px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+}
+.menu{
+    margin-left: 12px;
+}
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 312px;
+}
+
+.menu ul li {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.Contact {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    width: 145px;
+    height: 47px;
+    background: #676CDB;
+    text-decoration: none;
+}
+
+.Contact a{
+    text-decoration: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ffff;
+    line-height: 30px;
+}

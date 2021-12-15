@@ -1,0 +1,168 @@
+.photo {
+    width: 50%;
+    background-image: url("../../assets/photo1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 651px;
+}
+
+.Home-container{
+    background-color: #2D3540;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.description{
+    width: 47%;
+    position: relative;
+    margin-left: 41px;
+}
+
+.header{
+    position: absolute;
+   font-family: Playfair Display;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 90px;
+   line-height: 110%;
+   text-align: left;
+   width: 812px;
+   height: 375px;
+   color: #FFFFFF;
+   top: -230px;
+   left: 50px;
+}
+
+.describe{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+}
+
+.about-me{    
+ font-family: Poppins;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 20px;
+ line-height: 180%;
+ position: absolute;
+ width: 404px;
+ height: 202px;
+ top: 0px;
+ left: 53px;
+ color: rgba(255, 255, 255, 0.5);
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.buttons button{
+    margin: 0px  10px;
+}
+
+.email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 40px;
+    text-decoration: none;
+    position: absolute;
+    width: 177px;
+    height: 55px;
+    left: 0px;
+    top: 148px;
+    outline: none;   
+    border: none;
+    background: #676CDB;
+}
+
+.email p{
+    width: 93px;
+height: 24px;
+left: 100px;
+top: 20px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 120%;
+/* identical to box height, or 24px */
+
+
+color: #FFFFFF;
+
+}
+.email i{
+    color: white;
+    position: absolute;
+    width: 40px;
+   height: 10px;
+    left: 15px;
+   top: 16px;
+   font-size: 20px;
+}
+
+.cv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    position: absolute;
+    width: 201px;
+    height: 44px;
+    left: 170px;
+    top: 151px;
+}
+
+.getResume{
+    margin-left: 10px;
+}
+
+
+@media (max-width:992px) {
+    .header{
+        width: 90%;
+        font-size: 60px;
+    }
+    .Home-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .describe{
+        left: -9px;
+        width: 90%;
+    }
+    
+    .photo{
+        width: 95%;
+    }
+    .description{
+        width: 90%;
+        top:331px;
+    }
+}
+
+@media (max-width:508px) {
+    .about-me{
+        position: absolute;
+        left: 1px;
+        width: 90%;
+        font-size: 18px;
+    }
+    .header{
+        position: absolute;
+        left: 1px;
+        width: 90%;
+        font-size: 40px;
+    }
+}
